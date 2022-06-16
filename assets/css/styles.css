@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: asul;
+
+}
+
+p {
+    font-family: space-mono;
+
+}
+
+th, td{
+    max-width: 20%;
+}
+
+.bg-white {
+    background-color: #FCF7F8;
+
+}
+
+.bg-gray-50 {
+    background-color: #CED3DC;
+
+}
+
+.divide-cyan-800 {
+    background-color: #4E8098;
+
+}
+
+.bg-cyan-700 {
+    background-color: #90C2E7;
+
+}
+
+.text-cyan-100{
+    color: #FCF7F8;
+
+}
+
+.containerJC{
+    max-width: 1500px;
+
+}
+
+.doNotDisplay{
+    display:  none;
+}
+
+
