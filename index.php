@@ -9,7 +9,6 @@ include PATH . '/app/functions/variables.php';
 //load classes
 spl_autoload_register(function ($class_name) {
     include PATH . '/app/classes/' . $class_name . '.class.php';
-
 });
 
 //include functions
